@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="dlogo">
+      <img src="esp.png" alt="logo" id="logo">
+    </div>
+    <p>Ecole Superieure Polytechnique</p>  
+    <form action='inscription.php' method="post">
+      <fieldset>
+        <label for="login">Login <input id="login" name="login" type="email" required placeholder="Exemple : dijabella04@esp.sn"/></label>
+        <label for="new-password">New Password <input id="new-password" name="new-password" type="password" required /></label>
+        <label for="password">Password <input id="password" name="password" type="password"  required /></label>
+        <input type="text" value="s'inscrire" hidden id="inscrire" name="inscrire"/>
+        <input type="submit" value="S&#39;inscrire"/>
+      </fieldset>
+    </form>
+  </body>
+</html>
